@@ -25,9 +25,7 @@ public class Prodotto {
     }
 
 
-
-
-     public double getPrezzoTassato(){
+    public double getPrezzoTassato(){
         return this.prezzoProdotto + ((this.prezzoProdotto / 100) * this.ivaProdotto);
     }
     
