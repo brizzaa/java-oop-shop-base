@@ -6,6 +6,7 @@ public class App {
     Prodotto prodotto2 = new Prodotto("Pizza", 8, "pizza 100INTEGRALE");
     System.out.println(prodotto2.getPrezzoTassato());
     System.out.println(prodotto1.getPrezzoTassato());
+    
     }
     
 }

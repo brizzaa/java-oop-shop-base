@@ -19,9 +19,6 @@ public class Prodotto {
         this.nomeProdotto = nome;
         this.prezzoProdotto = prezzo; 
     }
-
-
-
      
     public double getPrezzo(){
         return this.prezzoProdotto;
